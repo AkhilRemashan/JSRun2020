@@ -4,13 +4,15 @@ import {FormsModule} from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { ServersComponent } from './servers/servers.component';
+import { SubserverComponent } from './subserver/subserver.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServersComponent
+    ServersComponent,
+    SubserverComponent
   ],
   imports: [
     BrowserModule,
