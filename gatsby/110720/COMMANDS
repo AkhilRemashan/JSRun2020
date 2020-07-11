@@ -1,0 +1,5 @@
+# START PROJECT
+gatsby new <PROJECT NAME> <TEMPLATE DIR>
+
+# FREE HELLO WORLD TEMPLATE
+https://github.com/gatsbyjs/gatsby-starter-hello-world
