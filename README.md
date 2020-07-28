@@ -1,1 +1,1 @@
-# JSRevisit2020
+# Revisiting and updating latest web technologies
