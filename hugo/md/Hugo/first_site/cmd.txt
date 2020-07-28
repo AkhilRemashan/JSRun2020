@@ -1,0 +1,5 @@
+# RUN SERVER
+$ hugo server -D
+
+# CREATE CONTENT
+$ hugo new <content file name>.md
