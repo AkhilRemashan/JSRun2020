@@ -1,4 +1,0 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "First Site"
-theme = "fs-hugo-theme"
