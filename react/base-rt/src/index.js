@@ -5,13 +5,14 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 // COMPONENTS
-import MyInfo from './components/MyInfo'
+// import MyInfo from './components/MyInfo'
+import TodoApp from './components/TodoApp'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyInfo />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
