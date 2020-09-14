@@ -6,13 +6,17 @@ import * as serviceWorker from './serviceWorker';
 
 // COMPONENTS
 // import MyInfo from './components/MyInfo'
-import TodoApp from './components/TodoApp'
+// import TodoApp from './components/TodoApp'
+import JokeMain from './components/JokeMain'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <TodoApp />
+    {
+    /* <TodoApp /> */
+    <JokeMain />
+    }
   </React.StrictMode>,
   document.getElementById('root')
 );
