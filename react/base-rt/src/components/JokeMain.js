@@ -1,10 +1,20 @@
 import React from 'react'
 import JokeQuestion from './JokeQuestion'
+import jokesApi from '../assets/data/jokeApi'
 
 function JokeMain(){
+
+    const jokeNewApi = jokesApi.map((joke) => {
+                            return <JokeQuestion 
+                                        question={joke.question} 
+                                        answer={joke.answer}
+                                    />
+                        })
+
     return(
         <div id="joke-main">
-            <JokeQuestion 
+            {/* STATIC */}
+            {/* <JokeQuestion 
                 question="bhvahsabsdbasbfssfsdf"
                 answer="sdfasf"
             />
@@ -23,7 +33,10 @@ function JokeMain(){
             <JokeQuestion 
                 question=""
                 answer=""
-            />
+            /> */}
+
+            {/* CALLING FROM JSON */}
+            {jokeNewApi}
         </div>
     )
 }
