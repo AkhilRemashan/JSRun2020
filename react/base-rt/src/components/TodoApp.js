@@ -1,5 +1,7 @@
 import React from 'react'
 
+import todosData from '../assets/data/todosData'
+
 // COMPONENT
 import TodoItem from './TodoItem'
 
@@ -11,13 +13,11 @@ function TodoApp(){
     //     verticalAlign: "Top"
     // }
 
+    const todosItem = todosData.map(item => <TodoItem item={item} />)
+
     return(
         <div id='todo-main' className='todo-list'>
-            <TodoItem />
-            <TodoItem />
-            <TodoItem />
-            <TodoItem />
-
+            {todosItem}
         </div>
     )
 }
