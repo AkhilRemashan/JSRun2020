@@ -1,5 +1,5 @@
 import React from 'react'
-import product from './../assets/data/schoolProduct'
+import product from '../assets/data/schoolProduct'
 import SchoolProductItems from './schoolProduct'
 
 function SchoolProductMain(){

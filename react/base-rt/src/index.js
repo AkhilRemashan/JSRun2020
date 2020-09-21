@@ -8,14 +8,17 @@ import * as serviceWorker from './serviceWorker';
 // import MyInfo from './components/MyInfo'
 // import TodoApp from './components/TodoApp'
 // import JokeMain from './components/JokeMain'
-import SchoolProductMain from './components/schoolProductMain' 
+// import SchoolProductMain from './components/schoolProductMain' 
+// import StatePracOne from './components/statePracOne'
+// import LogInforState from './components/statePracTwo'
+import TodoApp from './components/TodoAppClass'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
     {
-      <SchoolProductMain /> 
+      <TodoApp /> 
     }
   </React.StrictMode>,
   document.getElementById('root')
