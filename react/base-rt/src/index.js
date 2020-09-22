@@ -11,14 +11,17 @@ import * as serviceWorker from './serviceWorker';
 // import SchoolProductMain from './components/schoolProductMain' 
 // import StatePracOne from './components/statePracOne'
 // import LogInforState from './components/statePracTwo'
-import TodoApp from './components/TodoAppClass'
+import CountingStars from './components/CountingStars'
+
+// import TodoApp from './components/TodoAppClass'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
     {
-      <TodoApp /> 
+      <CountingStars />
+      // <TodoApp /> 
     }
   </React.StrictMode>,
   document.getElementById('root')
