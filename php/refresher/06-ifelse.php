@@ -10,14 +10,16 @@
 
     <?php
 
-        $x = 10;
-        $y = 20;
+        $x = 0;
         
-        // if ($x == $y or 1 == 1){
-        if ($x == $y || 1 == 1){
-            echo "true";
-        }else{
-            echo "false";
+        if($x == 1){
+            echo "it's one!";
+        }
+        elseif($x == 0){
+            echo "it's a zero :0";
+        } 
+        else{
+            echo "it's not one :/";
         }
 
     ?>
