@@ -48,3 +48,14 @@ while(num < 100) {
 
 
 // ######### for loops
+
+/* for (let num = 1; num < 200; num++) {
+    console.log(num);
+} */
+
+
+// ######### arrays
+
+/* let fruit1 = ['banana', 'grapes', 'watermelon'];
+let fruit2 = new Array('banana', 'grapes', 'watermelon'); */
+
