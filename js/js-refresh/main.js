@@ -59,3 +59,4 @@ while(num < 100) {
 /* let fruit1 = ['banana', 'grapes', 'watermelon'];
 let fruit2 = new Array('banana', 'grapes', 'watermelon'); */
 
+
