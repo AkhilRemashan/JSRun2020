@@ -1,3 +1,4 @@
 React
 Material UI
 DiceBear Avatars
+Firebase
