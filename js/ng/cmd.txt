@@ -1,2 +1,0 @@
-MongoDB
-=> mongod.exe --dbpath D:\Git\jsr-2020\ng\hire-me\mongo-data
